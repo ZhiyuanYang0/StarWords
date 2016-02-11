@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="star.main.test">
+
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="star.main"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for star.main"/>
+</manifest>

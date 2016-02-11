@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Starwords</string>
+    <string name="tv1">单词本</string>
+    <string name="btn1">单词学习</string>
+    <string name="btn2">单词复习</string>
+    <string name="btn3">单词测试</string>
+    <string name="btn4">生词本</string>
+    <string name="wordsbook">编辑单词</string>   
+    <string name="wordsbook1">单词：</string>         
+    <string name="wordsbook2">音标：</string>
+    <string name="wordsbook3">含义：</string>      
+    <string name="wordsbook4">例句：</string>
+    <string name="wordsbook5">备忘：</string>      
+    <string name="wordb1">上一个</string>
+    <string name="wordb2">下一个</string>         
+        
+     <string name="myTV">数据库演示</string>
+    <string name="strbt1">插入数据</string>
+    <string name="CB1">馒头</string>
+    <string name="CB2">面条</string>
+    <string name="CB3">米饭</string>
+    <string name="CB4">汉堡</string>
+    <string name="myTV2">我是第二个Activity</string>
+    <string name="name">用户名：</string>
+    <string name="key">密码：</string>
+    <string name="strbtn2">删除数据</string>
+    <string name="strbt3">查询数据</string>
+    <string name="strbtn4">更新数据</string>
+    <string name="text1">姓名：</string>
+    <string name="text2">年龄：</string>
+    <string name="text3">籍贯：</string>   
+</resources>

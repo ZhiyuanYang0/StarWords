@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/word1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="40px"
+        android:textColor="#000000"
+        android:textSize="20pt" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/word2"
+        android:layout_below="@id/word1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:textColor="#000000"
+        android:textSize="15pt" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/word3"
+        android:layout_below="@id/word2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:textColor="#000000"
+        android:textSize="8pt" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/word4"
+        android:layout_below="@id/word3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:textColor="#000000"
+        android:textSize="8pt" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/wordlinearLayout2"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="30px">
+
+        <Button
+            android:id="@+id/wordbutton1"
+            android:layout_width="120px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="10px"
+            android:text="@string/wordb1" >
+        </Button>
+
+        <Button
+            android:id="@+id/wordbutton2"
+            android:layout_width="180px"
+            android:layout_height="match_parent"
+            android:text="删除该生词" >
+        </Button>
+
+        <Button
+            android:id="@+id/wordbutton3"
+            android:layout_width="120px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:text="@string/wordb2" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

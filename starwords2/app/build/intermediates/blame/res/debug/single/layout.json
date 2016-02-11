@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/Samuel/Desktop/Github/Android/starwords2/app/build/intermediates/res/merged/debug/layout/booklist.xml",
+        "source": "/Users/Samuel/Desktop/Github/Android/starwords2/app/src/main/res/layout/booklist.xml"
+    },
+    {
+        "merged": "/Users/Samuel/Desktop/Github/Android/starwords2/app/build/intermediates/res/merged/debug/layout/wordsbooktest.xml",
+        "source": "/Users/Samuel/Desktop/Github/Android/starwords2/app/src/main/res/layout/wordsbooktest.xml"
+    },
+    {
+        "merged": "/Users/Samuel/Desktop/Github/Android/starwords2/app/build/intermediates/res/merged/debug/layout/word.xml",
+        "source": "/Users/Samuel/Desktop/Github/Android/starwords2/app/src/main/res/layout/word.xml"
+    },
+    {
+        "merged": "/Users/Samuel/Desktop/Github/Android/starwords2/app/build/intermediates/res/merged/debug/layout/wordsbookview.xml",
+        "source": "/Users/Samuel/Desktop/Github/Android/starwords2/app/src/main/res/layout/wordsbookview.xml"
+    },
+    {
+        "merged": "/Users/Samuel/Desktop/Github/Android/starwords2/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/Samuel/Desktop/Github/Android/starwords2/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/Samuel/Desktop/Github/Android/starwords2/app/build/intermediates/res/merged/debug/layout/wordsbook.xml",
+        "source": "/Users/Samuel/Desktop/Github/Android/starwords2/app/src/main/res/layout/wordsbook.xml"
+    }
+]

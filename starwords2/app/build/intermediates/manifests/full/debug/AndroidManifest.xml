@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="star.main"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="star.main.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="star.db.dbhelper" >
+        </activity>
+        <activity android:name="star.view.WordsBookView" >
+        </activity>
+        <activity android:name="star.view.WordsBookViewuser1" >
+        </activity>
+        <activity android:name="star.view.WordsBookReview" >
+        </activity>
+        <activity android:name="star.view.listview" >
+        </activity>
+        <activity android:name="star.view.word" >
+        </activity>
+        <activity android:name="star.view.worduser1" >
+        </activity>
+        <activity android:name="star.view.wordreview" >
+        </activity>
+        <activity android:name="star.service.addbook" >
+        </activity>
+        <activity android:name="star.service.addbookuser1" >
+        </activity>
+        <activity android:name="star.service.wordtest" >
+        </activity>
+        <activity android:name="star.main.booklist" >
+        </activity>
+        <activity android:name="star.main.booklistreview" >
+        </activity>
+        <activity android:name="star.booklist.CET4" >
+        </activity>
+        <activity android:name="star.booklist.USER1" >
+        </activity>
+        <activity android:name="star.booklist.CET4review" >
+        </activity>
+        <activity android:name="star.booklist.CET4test" >
+        </activity>
+        <activity android:name="star.newwords.newwords" >
+        </activity>
+        <activity android:name="star.newwords.newwordslist" >
+        </activity>
+        <activity android:name="star.test.testbooklist" >
+        </activity>
+        <activity android:name="star.test.CET4wordstest" >
+        </activity>
+    </application>
+
+</manifest>
